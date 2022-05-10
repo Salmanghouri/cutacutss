@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 
 
@@ -19,19 +20,23 @@ const Navbar = () => {
         
          
         </ul>
-        <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+
   
           {/* <BiCodeAlt className="text-4xl font-[600] text-teal-900 cursor-pointer" />
           <span className="ml-3 text-3xl font-extrabold text-teal-600 cursor-pointer">Salman Ghouri Dev</span> */}
-            <Image
+           
+        <Link href="/">
+          <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"> <Image
               src="/logo2.png"
               alt="Picture of the author"
               width={265}
               height={72}
-            />
+              
+            /></a>
+        </Link>
          
 
-        </a>
+       
 
       
 
