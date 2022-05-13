@@ -4,6 +4,7 @@ import Navbar from './Navbar'
 import Navbar2 from './Navbar/Navbar2'
 import Topbar from './Navbar/Topbar'
 import Topbar2 from './Navbar/Topbar2'
+import Navbar3 from './Navbar/Navbar3'
 
 function MyApp({ Component, pageProps }) {
   return ( 
@@ -11,7 +12,7 @@ function MyApp({ Component, pageProps }) {
     <Topbar/>
     <Topbar2/>
     <Navbar/>
-    <Navbar2/>
+    <Navbar3/>
   <Component {...pageProps} />
   <Footer/>
   </>

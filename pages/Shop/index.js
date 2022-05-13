@@ -49,7 +49,7 @@ const index = () => {
       </div>
       <div className="flex items-center justify-center">
         {/* <span className="text-3xl font-bold text-gray-900 dark:text-white">$599</span> */}
-        <Link href="/Components/Productpage"><a   className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Add to cart</a></Link>
+        <Link href="/Components/Productview"><a   className="text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-800">Add to cart</a></Link>
       </div>
     </div>
   </div>
