@@ -155,7 +155,7 @@ const Productview = () => {
         </h2>
   <div className="container px-2 py-1 mx-auto lg:pt-1 lg:px-32 bg-gray-100">
   <div className="flex items-center mb-4 space-x-4">
-    <img className="w-10 h-10 rounded-full" src="/4.jpg" alt="" />
+    <Image className="w-10 h-10 rounded-full" src="/4.jpg" alt="" width="40" height="40"/>
     <div className="space-y-1 font-medium dark:text-white">
       <p>Demo <time dateTime="2014-08-16 19:00" className="block text-sm text-gray-500 dark:text-gray-400">Joined on August 2022</time></p>
     </div>

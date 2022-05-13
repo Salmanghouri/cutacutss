@@ -1,6 +1,8 @@
 import { useState } from 'react'
 import Link from "next/link";
-export default () => {
+
+
+const Navbar3 = () => {
 
   const [state, setState] = useState(false)
 
@@ -60,3 +62,4 @@ export default () => {
       </nav>
   )
 }
+export default Navbar3;
